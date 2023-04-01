@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+div{
+    /* border: solid black; */
+}
+.main{
+    width: 875px;
+    height: 2000px;
+    margin: auto;
+}
+.sidesection{
+    width: 250px;
+    height: 1500px;
+    float: left;
+    background-color: #205072;
+    color: #fff;
+    padding: 20px;
+    margin: auto;
+    font-size: 14px;
+    background-image: linear-gradient(#100a6b,#5f72fb);
+}
+.main-content{
+    width: 600px;
+    height: 1500px;
+    float: left;
+    border: solid #100a6b;
+
+}
+.sidesection img{
+    border-radius: 75px;
+    margin-bottom: 10px;        
+}
+.center{
+    display: block;
+    margin: 15px auto;
+}
+.icons{
+    width: 35px;
+    height: 35px;
+    margin: auto;
+}
+.div-icons{
+    width: 35px;
+    float: left;
+}
+.name{
+    text-align: center;
+}
+.profile{
+    text-align: justify;
+    padding: 15px;
+}
+.refrees{
+    line-height: 0.6cm;
+}
+.sub-topic{
+    text-align: center;
+    margin-top: 10px;
+}
+.declaration{
+    margin-top: 35px;
+    padding: 15px;
+    text-align: justify;
+}
+.date{
+    width: 45%;
+    padding: 15px;
+    float: left;
+}
+.sign{
+    width: 45%;
+    text-align: right;
+    padding: 15px;
+    float: right;
+}
